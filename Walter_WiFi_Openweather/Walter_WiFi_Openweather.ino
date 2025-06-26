@@ -9,15 +9,13 @@ char* ssid     = SECRET_SSID;
 char* password = SECRET_PASS;
 char* appid    = SECRET_APPID;
 
-#define DEBUG 1  // Select debug mode by 1
-
 // THE DEFAULT TIMER IS SET TO 10 SECONDS FOR TESTING PURPOSES
 // For a final application, check the API call limits per hour/minute to avoid getting blocked/banned
 unsigned long lastTime = 0;
 // Timer set to 2 minutes (120000)
-//unsigned long timerDelay = 120000;  // 1000 calls/day free
+unsigned long timerDelay = 120000;  // 1000 calls/day free
 // Set timer to 10 seconds (10000)
-unsigned long timerDelay = 10000;
+// unsigned long timerDelay = 10000;
 
 StaticJsonDocument<1024> doc;
 String jsonBuffer;
@@ -47,7 +45,7 @@ void setup()
 
 void loop()
 {
-	// Send an HTTP GET request
+  // Send an HTTP GET request
   if (((millis() - lastTime) > timerDelay) || firstTime) 
   {
     firstTime = false;
