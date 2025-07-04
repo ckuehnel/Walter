@@ -1,4 +1,10 @@
-// SHT31 Test Program
+/*
+ * File: Walter_SHT31_Test.ino
+ * 
+ * Query Temperature and Humidity of the Environment by SHT31 connected to Walter-Module 
+ *  
+ * created by Claus Kühnel 2025-07-04 info@ckuehnel.ch
+ */
 
 #include <Arduino.h>
 #include <Wire.h>
