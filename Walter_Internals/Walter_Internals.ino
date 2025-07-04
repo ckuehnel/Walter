@@ -1,7 +1,10 @@
 /*
-  ESP32 Test
-  (c) Claus Kuehnel 2018-03-01 info@ckuehnel.ch
-*/
+ * File: Walter_Internals.ino
+ * 
+ * Get internals of ESP32-S3 used in Walter-Module 
+ *  
+ * created by Claus Kühnel 2025-07-04 info@ckuehnel.ch
+ */
 #include <esp_mac.h>
 
 #define LED 2   // adapt it
