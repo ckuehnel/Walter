@@ -1,4 +1,11 @@
-// Walter WiFi OpenWeather Station
+/*
+ * File: Walter_WiFo_Openweather.ino
+ * 
+ * Walter WiFi OpenWeather Station
+ * Query Environmental Data from Openweather by WiFi Access 
+ *  
+ * created by Claus Kühnel 2025-07-04 info@ckuehnel.ch
+ */
 
 #include <WiFi.h>
 #include <HTTPClient.h>
