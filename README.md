@@ -4,7 +4,7 @@ Walter is a small-form-factor IoT system-on-module (SoM) that combines a powerfu
 
 You will find the original documentation @ https://www.quickspot.io/
 
-I have documented my experiences working with Walter in an eBook entitled
+I have documented my experiences of working with Walter in an eBook entitled
 Walter: IoT module consisting of ESP32-S3 SoC and Sequans GM02SP LTE-M/NB-IoT 5G modem and GNSS receiver
 You will find it at https://www.amazon.com/-/de/dp/B0FHG3MKNH/
 
