@@ -9,3 +9,7 @@ You will find the original documentation @ https://www.quickspot.io/
 Walter ist ein IoT-System-on-Module (SoM) im Kleinformat, das einen leistungsstarken Espressif ESP32-S3 System-on-Chip (SoC) mit einem Sequans GM02SP LTE-M/NB-IoT 5G-Modem und GNSS-Empfänger der zweiten Generation kombiniert. Der ESP32-S3 bietet auch viele integrierte Peripheriegeräte, darunter UART, SPI, I²C, CAN, Wi-Fi b/g/n und Bluetooth 5. Walter ist das einzige Modul, das all diese Konnektivitätsoptionen in einem so kleinen Gehäuse unterbringt. Walter ist ideal für das Prototyping, kann aber auch für die Produktion verwendet werden, da es vollständig zertifiziert ist (CE, UKCA, FCC, IC, RCM).
 
 Sie finden die Originaldokumentation @ https://www.quickspot.io/
+
+Meine Erfahrungen bei der Arbeit mit Walter habe ich in einem eBook mit dem Titel 
+Walter: Kompaktes IoT-Modul mit ESP32-S3 und LTE-M/NB-IoT-Modem
+zusammengetragen. Sie finden es unter https://www.amazon.com/-/de/dp/3907857577.
