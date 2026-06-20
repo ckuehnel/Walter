@@ -5,6 +5,8 @@
  * Query Environmental Data from Openweather by WiFi Access 
  *  
  * created by Claus Kühnel 2025-07-04 info@ckuehnel.ch
+ *
+ * Arduino IDE 2.3.10 compiled @ 2026-06-20
  */
 
 #include <WiFi.h>

@@ -4,11 +4,13 @@
  * Query Temperature and Humidity of the Environment by SHT31 connected to Walter-Module 
  *  
  * created by Claus Kühnel 2025-07-04 info@ckuehnel.ch
+ *
+ * Arduino IDE 2.3.10 compiled @ 2026-06-20
  */
 
 #include <Arduino.h>
 #include <Wire.h>
-#include "Adafruit_SHT31.h"
+#include "Adafruit_SHT31.h" // v2.2.2
 
 #define PWR_3V3_EN_PIN 0
 #define I2C_SDA_PIN 42

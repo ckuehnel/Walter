@@ -4,6 +4,8 @@
  * Get internals of ESP32-S3 used in Walter-Module 
  *  
  * created by Claus Kühnel 2025-07-04 info@ckuehnel.ch
+ *
+ * Arduino IDE 2.3.10 compiled @ 2026-06-20
  */
 #include <esp_mac.h>
 

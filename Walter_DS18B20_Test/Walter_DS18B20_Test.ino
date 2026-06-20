@@ -4,6 +4,8 @@
  * Query Temperature of the Environment by DS18B20 connected to Walter-Module 
  *  
  * created by Claus Kühnel 2025-07-04 info@ckuehnel.ch
+ * 
+ * Arduino IDE 2.3.10 compiled @ 2026-06-20
  */
 #include <Wire.h>
 #include <OneWire.h>
